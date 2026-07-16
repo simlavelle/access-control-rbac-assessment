@@ -1,0 +1,7 @@
+username,role,entitlements,last_login_days
+asmith,help_desk,"ticket.read;ticket.write;kb.read",3
+bjones,sysadmin,"ticket.read;server.read;server.write;backup.run;invoice.approve",1
+cwong,finance_clerk,"invoice.read;invoice.create;invoice.approve",5
+dpatel,finance_approver,"invoice.read;invoice.approve",2
+elee,auditor,"log.read;invoice.read;server.read",0
+fgarcia,help_desk,"ticket.read;kb.read",210

@@ -1,0 +1,7 @@
+{
+  "conflicts": [
+    ["invoice.create", "invoice.approve"],
+    ["server.write", "log.read"]
+  ],
+  "stale_threshold_days": 90
+}

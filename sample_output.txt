@@ -1,0 +1,9 @@
+RBAC audit: 6 users, 5 roles, 2 SoD rules
+
+  [SOD_CONFLICT  ] cwong      holds conflicting 'invoice.create' + 'invoice.approve'
+  [LEAST_PRIV    ] bjones     has 'invoice.approve' not granted by role 'sysadmin'
+  [LEAST_PRIV    ] cwong      has 'invoice.approve' not granted by role 'finance_clerk'
+  [STALE_ACCOUNT ] fgarcia    no login in 210 days (>= 90)
+  [MISSING       ] fgarcia    role grants 'ticket.write' but user lacks it
+
+Total findings: 5 (3 high-priority)

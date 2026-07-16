@@ -1,0 +1,7 @@
+{
+  "help_desk":   ["ticket.read", "ticket.write", "kb.read"],
+  "sysadmin":    ["ticket.read", "server.read", "server.write", "backup.run"],
+  "finance_clerk": ["invoice.read", "invoice.create"],
+  "finance_approver": ["invoice.read", "invoice.approve"],
+  "auditor":     ["log.read", "invoice.read", "server.read"]
+}
